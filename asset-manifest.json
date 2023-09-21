@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c4c4126.css",
-    "main.js": "/static/js/main.947d05ac.js",
-    "static/media/home_lamp.jpg": "/static/media/home_lamp.efc781424fd0754d68de.jpg",
-    "static/media/home_love.jpg": "/static/media/home_love.7d1f627da0fb5f8dcefd.jpg",
-    "static/media/cocs.jpg": "/static/media/cocs.12ca0baf2dcbcefaee82.jpg",
-    "static/media/home.jpg": "/static/media/home.870a00f9ccd3caa0f7bb.jpg",
-    "static/media/globs_lamp.jpg": "/static/media/globs_lamp.c35840b9b0081557d40e.jpg",
-    "static/media/DSC.jpg": "/static/media/DSC.a78d780e3f0a7ba9cc71.jpg",
-    "static/media/montain.jpg": "/static/media/montain.f6113274385f2ce85c33.jpg",
-    "index.html": "/index.html",
-    "main.9c4c4126.css.map": "/static/css/main.9c4c4126.css.map",
-    "main.947d05ac.js.map": "/static/js/main.947d05ac.js.map"
+    "main.css": "/deli-art.demo/static/css/main.9c4c4126.css",
+    "main.js": "/deli-art.demo/static/js/main.7788421c.js",
+    "static/media/home_lamp.jpg": "/deli-art.demo/static/media/home_lamp.efc781424fd0754d68de.jpg",
+    "static/media/home_love.jpg": "/deli-art.demo/static/media/home_love.7d1f627da0fb5f8dcefd.jpg",
+    "static/media/cocs.jpg": "/deli-art.demo/static/media/cocs.12ca0baf2dcbcefaee82.jpg",
+    "static/media/home.jpg": "/deli-art.demo/static/media/home.870a00f9ccd3caa0f7bb.jpg",
+    "static/media/globs_lamp.jpg": "/deli-art.demo/static/media/globs_lamp.c35840b9b0081557d40e.jpg",
+    "static/media/DSC.jpg": "/deli-art.demo/static/media/DSC.a78d780e3f0a7ba9cc71.jpg",
+    "static/media/montain.jpg": "/deli-art.demo/static/media/montain.f6113274385f2ce85c33.jpg",
+    "index.html": "/deli-art.demo/index.html",
+    "main.9c4c4126.css.map": "/deli-art.demo/static/css/main.9c4c4126.css.map",
+    "main.7788421c.js.map": "/deli-art.demo/static/js/main.7788421c.js.map"
   },
   "entrypoints": [
     "static/css/main.9c4c4126.css",
-    "static/js/main.947d05ac.js"
+    "static/js/main.7788421c.js"
   ]
 }
