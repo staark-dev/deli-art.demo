@@ -1,6 +1,7 @@
 {
   "name": "deli-art.com",
   "version": "0.1-beta",
+  "homepage": "https://staark-dev.github.io/deli-art.demo/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
