@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+.products__content > article {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 1.5rem 0.5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.products__content > article:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.products__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    grid-row: 2rem;
+}
+
+.products_details > img {
+    display: inline-block;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.products_details h4 {
+    background: var(--color-primary);
+    padding: 1rem 3rem;
+    margin-top: -39px;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+    font-family: 'Croissant One', cursive;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.products__container > h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.products__container > h2 > svg {
+    position: relative;
+    top: 5px;
+}
+
+.products__btn {
+    display: flex;
+    width: max-content;
+    padding: 0.8rem;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.products__btn .btn {
+    padding: 0.8rem 2rem;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-white);
+    background: var(--color-bg-variant) !important;
+}
+
+.products__btn .btn:hover {
+    color: var(--color-white);
+    background: var(--color-bg-variant) !important;
+}
+
+.products__modal {
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    z-index: 2;
+    transform: translateX(-50%);
+    height: 300px;
+    padding: 1.2rem 3rem;
+    color: var(--color-white);
+    width: 500px;
+    background: linear-gradient(70deg, var(--color-primary), var(--color-bg-variant));
+    box-shadow: 0px 0px 8px var(--color-bg);
+    border: 2px solid transparent;
+    border-radius: 1rem;
+    display: none;
+}
+
+.products__modal.open {
+    display: block;
+}
+
+button.products__modal_btn.btn.btn_close {
+    font-size: 3rem;
+    padding: 10px 10px 5px;
+    line-height: 1.2;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    background: transparent !important;
+    color: var(--color-white);
+    border: 0;
+}
+
+@media screen and (max-width: 992px) {
+    .container.products__container {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+
+    .products__content {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container.products__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+    .products__content {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container.products__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .products__content {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
